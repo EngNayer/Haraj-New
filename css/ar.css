@@ -1,0 +1,196 @@
+body {
+    direction: rtl;
+    text-align: right;
+}
+
+.selector i{
+    left: 5px;
+}
+
+.link_page li a:hover{
+    transform: translateX(-10px);
+}
+
+.links_page li a:before{
+    right: -20px;
+}
+
+.links_user{
+    text-align: left;
+}
+
+.search button{
+    left: 0;
+}
+
+#nav-icon3 {
+    float: left;
+}
+
+.open_search {
+    float: left;
+}
+
+.bell span{
+    right: 2px;
+}
+
+.form_input span:first-child{
+    right: 12px;
+}
+
+.register_group .nav-tabs .nav-link:before{
+    right: 20px;
+}
+
+.register_group .nav-tabs .nav-link:after{
+    right: 24px;
+}
+
+.form_input span:last-child{
+    left: 20px;
+}
+
+.filter_section ul li {
+    border-left: 1px solid #DDD;
+}
+
+.section_home .nav-tabs .nav-link:before {
+    left: -15px;
+}
+
+.close {
+    left: 10px;
+}
+
+#owl_2 .block_e3lan h6 {
+    direction: rtl;
+}
+
+.massage_block {
+    padding-right: 55px;
+}
+
+.image_block {
+    right: -45px;
+}
+
+.remove{
+    left: -15px;
+}
+
+.sent:before {
+    right: -15px;
+    border-left: 15px solid #e7e7e7;
+}
+
+.recoverd:before {
+    left: -15px;
+    border-right: 15px solid #ecbc44;
+}
+
+.sent .img_chat {
+    right: -105px;
+}
+
+.recoverd .img_chat {
+    left: -105px;
+}
+
+.form_input .code{
+    left: 15px;
+}
+
+.category img{
+    margin-left: 15px;
+}
+.over_category{
+    right: 0;
+    transform: translateX(100%);
+}
+
+.mune_category{
+    right: 0;
+    transform: translateX(100%);
+}
+
+.caller li a i {
+    right: -11px;
+    border-left: 1px solid #DDD;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Screen */
+
+@media screen and (max-width: 990px){
+
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .search button {
+        left: 14px;
+    }
+
+    .bell span{
+        right: -10px;
+        top: -10px;
+    }
+
+    .overlay{
+        left: 0;
+        transform: translateX(-100%);
+    }
+
+    .Nav_Mobile{
+        right: 0;
+        transform: translateX(100%);
+    }
+
+    .image_block {
+        right: -10px;
+    }
+
+    .sent .desc_chat {
+        padding-right: 30px;
+    }
+
+    .recoverd .desc_chat {
+        padding-left: 30px;
+    }
+
+    .sent .img_chat {
+        right: -15px;
+    }
+
+    .recoverd .img_chat {
+        left: -15px;
+    }
+    .register_group .nav-tabs .nav-link:before{
+        right: 0px;
+    }
+
+    .register_group .nav-tabs .nav-link:after{
+        right: 4px;
+    }
+
+}
